@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="g-doc">
     <router-view></router-view>
   </div>
 </template>
@@ -11,5 +11,5 @@
 </script>
 
 <style>
-  /* CSS */
+  @import './styles/main.scss'
 </style>
